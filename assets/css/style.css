@@ -1,9 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,700&family=Source+Code+Pro:ital,wght@0,200;0,400;0,700;1,700&display=swap');
 
 body {
   width: 100%;
   flex-wrap: wrap;
-  font-family: sans-serif,Impact,'Arial Narrow Bold', Arial, Helvetica;
+  font-family: 'Source Code Pro', monospace;
   font-size: 18px;
   line-height: 34px;
   color: #777777;
@@ -34,9 +34,9 @@ nav {
    float: right;
    background-color: white;
    font-size: 30px;
-   padding: 40px;
-   margin: -20px -20px 0px auto;
-
+   padding: 28px;
+/*    margin: -20px -20px 0px auto;
+ */
 }
 nav a {
     display: inline;
@@ -49,7 +49,9 @@ nav a {
 }
 
 nav a:hover {
-    font-weight: bold;
+  font-weight: bold;
+  color: #cdcdf4;
+  
 } 
 
 
@@ -57,16 +59,17 @@ nav a:hover {
 
   display: inline-block;
   width:100%;
-  padding: 62px;
   margin: auto; 
   background-color: whitesmoke;
-  margin-top: 8px;
+  margin-top: 18px;
   margin-bottom: 16px;
  
 
 }
   .bio-text{
- text-align:justify;
+ text-align:left;
+    
+    
 
 
 
@@ -74,8 +77,10 @@ nav a:hover {
 
 
 img {
-  border: #7777 solid 18px;
+  border: #7777 solid 12px;
  float: right;
+  max-width: 25%;
+  margin-top: 24px;
 
 }
 
@@ -85,14 +90,14 @@ img {
     width: 100%;
     color: #7777;
     border-top: 2px solid #8b8d8d;
-    text-align: center;
-    font-size: 18px;
+    text-align: left;
+    font-size: 12px;
+    margin-top: 24px;
 
 }
 /* portfolio page */
 
 .portfolio-image {
-    position: absolute;
     width: 200px;
     margin: 20px 20px 20px 0;
     display: flex;
